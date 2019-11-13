@@ -14,7 +14,7 @@ geographischen Stilinformationen auf Layer-Ebene. Dies umfasst unter anderem
 SLD, OpenLayers- und QGIS-Stile.
 
 Die Teilnehmer des Workshops lernen anhand einfacher Beispiele wie der GeoStyler
-und einzelne Komponenten nahtlos in eine existierende Webanwendung integriert werden können oder als
+und einzelne Komponenten nahtlos in existierende Webanwendungen integriert werden können oder als
 Standalone Applikation verwendet werden kann. Die vorgefertigten Styling Komponenten ermöglichen so, auf einfache Art eigene WebGIS-Anwendungen zu erweitern und Nutzern das Styling von Geodaten über eine graphische Schnittstelle zu erlauben.
 
 Dieser Workshop richtet sich an (zukünftige) Entwickler von WebGIS-Anwendungen, die die Möglichkeit bieten sollen, Nutzern das Styling von Geodaten zu erlauben. 
