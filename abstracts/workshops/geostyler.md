@@ -14,7 +14,7 @@ geographischen Stilinformationen auf Layer-Ebene. Dies umfasst unter anderem
 SLD, OpenLayers- und QGIS-Stile.
 
 Die Teilnehmer des Workshops lernen anhand einfacher Beispiele wie der GeoStyler
-und einzelne Komponenten in eine existierende Webanwendung integriert werden können oder als
+und einzelne Komponenten nahtlos in eine existierende Webanwendung integriert werden können oder als
 Standalone Applikation verwendet werden kann.
 
 Vorkenntnisse in JavaScript oder ReactJS sind hilfreich, aber nicht zwingend erforderlich.
