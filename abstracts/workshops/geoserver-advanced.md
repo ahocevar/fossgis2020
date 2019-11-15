@@ -30,5 +30,5 @@ Vorkenntnisse in einer Programmiersprache sind für diesen Workshop nicht notwen
 Praktische Erfahrungen mit dem GeoServer sind von Vorteil, aber nicht zwingend erforderlich.
 
 ## Status
-  * Submitted: Nein
+  * Submitted: Ja
   * Angenommen: Nein
