@@ -26,18 +26,16 @@ Im Rahmen des Workshops werden u.a. folgende Themen behandelt:
 Dieser Workshop richtet sich an (zukünftige) Entwickler von WebGIS-Anwendungen, die die Möglichkeit bieten sollen, Nutzern das Styling von Geodaten zu erlauben. 
 Vorkenntnisse in JavaScript oder ReactJS sind hilfreich, aber nicht zwingend erforderlich.
 
-Informationen:
+Informationen
 
 Zugehöriger Talk:
-  [Neues vom GeoStyler](TODO)
+- [Neues vom GeoStyler](TODO)
 
 GeoStyler:
 
-Quellcode auf github: https://github.com/geostyler/geostyler
-
-Online-Dokumentation: https://geostyler.github.io/geostyler/latest/index.html
-
-Demo: https://www.geostyler.org
+- Quellcode auf github: https://github.com/geostyler/geostyler
+- Online-Dokumentation: https://geostyler.github.io/geostyler/latest/index.html
+- Demo: https://www.geostyler.org
 
 react: https://reactjs.org/
 
