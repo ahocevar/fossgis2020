@@ -24,7 +24,7 @@ Image, Registry, …) einige hilfreiche Informationen zu Installation und Konfig
 gegeben. Anschließend wird sukzessive eine leicht verständliche GDI, bestehend
 aus einer PostGIS-Datenbank, eines GeoServers und eines WebGIS erstellt. Dabei wird
 besonders auf die Kommunikation der Services untereinander, typische Konfigurationsoptionen
-sowie Erweiterungsmöglichkeiten diskutiert.
+sowie Erweiterungsmöglichkeiten eingegangen.
 
 Nach Bedarf können Vor- und Nachteile einer Docker-basierten Architektur für
 spezifische Systeme diskutiert werden.
@@ -42,5 +42,5 @@ Informationen
 - docker-compose https://docs.docker.com/compose/
 
 ## Status
-  * Submitted: Nein
+  * Submitted: Ja
   * Angenommen: Nein
