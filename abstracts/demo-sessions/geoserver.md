@@ -28,5 +28,5 @@ GeoServer demonstrieren und sich dabei auf die folgenden Inhalte konzentrieren:
 
 ## Status
 
-* Submitted: Nein
+* Submitted: Ja
 * Angenommen: Nein
