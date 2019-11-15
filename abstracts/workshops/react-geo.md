@@ -40,5 +40,5 @@ AntDesign: http://ant.design/
 OpenLayers: http://openlayers.org/
 
 ## Status
-  * Submitted: Nein
+  * Submitted: Ja
   * Angenommen: Nein
