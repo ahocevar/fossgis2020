@@ -22,7 +22,7 @@ Dieser Workshop soll den Teilnehmern zunächst eine kurze Einführung in Docker 
 docker-compose geben. Hier werden neben den Grundkonzepten (u.a. Dockerfile, Container,
 Image, Registry, …) einige hilfreiche Informationen zu Installation und Konfiguration
 gegeben. Anschließend wird sukzessive eine leicht verständliche GDI, bestehend
-aus einer PostGIS-Datenbank, eines GeoServers und einem WebGIS erstellt. Dabei wird
+aus einer PostGIS-Datenbank, eines GeoServers und eines WebGIS erstellt. Dabei wird
 besonders auf die Kommunikation der Services untereinander, typische Konfigurationsoptionen
 sowie Erweiterungsmöglichkeiten diskutiert.
 
