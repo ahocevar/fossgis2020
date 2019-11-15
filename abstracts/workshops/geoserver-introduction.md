@@ -21,5 +21,5 @@ Zielgruppe sind alle Interessierten, die die Möglichkeiten vom GeoServer kennen
 wollen. Vorkenntnisse im GeoServer sind nicht notwendig.
 
 ## Status
-  * Submitted: Nein
+  * Submitted: Ja
   * Angenommen: Nein
