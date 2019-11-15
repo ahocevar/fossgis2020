@@ -9,7 +9,7 @@
 In diesem Workshop lernen Sie die ersten Schritte mit dem GeoStyler und bekommen einen
 Einblick in die Möglichkeiten, die der GeoStyler mit seinen Komponenten bietet.
 
-Der GeoStyler ist eine JavaScript Bibliothek die ein anpassbares ReactJS basiertes User Interface zur Erstellung von
+Der GeoStyler ist eine JavaScript Bibliothek, die ein anpassbares ReactJS basiertes User Interface zur Erstellung von
 geographischen Stilinformationen auf Layer-Ebene bietet. Dies umfasst unter anderem
 SLD, OpenLayers- und QGIS-Stile.
 
