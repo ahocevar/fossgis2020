@@ -1,8 +1,8 @@
 # GeoStyler - Eine UI für alle* Stile
 
-## Leitung: 
+## Leitung: Jan Suleiman, Daniel Koch, Christian Mayer
 
-## Einreichen von: 
+## Einreichen von: Jan Suleiman
 
 ## Abstract
 
@@ -29,12 +29,14 @@ Vorkenntnisse in JavaScript oder ReactJS sind hilfreich, aber nicht zwingend erf
 Informationen:
 
 Zugehöriger Talk:
-  [GeoStyler – Ein graphischer Stileditor für Geodaten](TODO)
+  [Neues vom GeoStyler](TODO)
 
 GeoStyler:
 
 Quellcode auf github: https://github.com/geostyler/geostyler
+
 Online-Dokumentation: https://geostyler.github.io/geostyler/latest/index.html
+
 Demo: https://www.geostyler.org
 
 react: https://reactjs.org/
