@@ -40,5 +40,5 @@ GeoStyler:
 react: https://reactjs.org/
 
 ## Status
-  * Submitted: Nein
+  * Submitted: Ja
   * Angenommen: Nein
