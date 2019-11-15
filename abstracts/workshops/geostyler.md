@@ -21,7 +21,7 @@ Im Rahmen des Workshops werden u.a. folgende Themen behandelt:
 - Grundlegende Verwendung und Integration der UI-Komponenten
 - Komposition der Editoren
 - Erstellung eigener Komponenten
-- Automatische Konvertierung verschiedener Stilformate
+- Automatisiertes Konvertieren verschiedener Stilformate
 
 Dieser Workshop richtet sich an (zukünftige) Entwickler von WebGIS-Anwendungen, die die Möglichkeit bieten sollen, Nutzern das Styling von Geodaten zu erlauben. 
 Vorkenntnisse in JavaScript oder ReactJS sind hilfreich, aber nicht zwingend erforderlich.
