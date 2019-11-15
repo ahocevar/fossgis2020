@@ -21,8 +21,10 @@ Kombination mit react-geo ihre Stärken präsentieren.
 Die Teilnehmer des Workshops lernen anhand einfacher Beispiele den Umgang mit
 Basis-Komponenten (Ortssuche, Maßstabsauswahl, …) und -Konzepten.
 
-Vorkenntnisse in JavaScript sind wünschenswert und sicherlich hilfreich, aber
-nicht zwingend erforderlich.
+Dieser Workshop richtet sich an (zukünftige) Entwickler von WebGIS-Anwendungen,
+die React und OpenLayers in ihre Anwendung aufnehmen möchten. Vorkenntnisse in
+JavaScript sind wünschenswert und sicherlich hilfreich, aber nicht zwingend
+erforderlich.
 
 Informationen:
 
