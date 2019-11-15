@@ -42,5 +42,5 @@ Informationen
 - docker-compose https://docs.docker.com/compose/
 
 ## Status
-  * Submitted: Nein
+  * Submitted: Ja
   * Angenommen: Nein
