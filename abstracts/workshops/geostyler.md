@@ -41,4 +41,4 @@ react: https://reactjs.org/
 
 ## Status
   * Submitted: Ja
-  * Angenommen: Nein
+  * Angenommen: Ja
