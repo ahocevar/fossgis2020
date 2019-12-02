@@ -31,4 +31,4 @@ Praktische Erfahrungen mit dem GeoServer sind von Vorteil, aber nicht zwingend e
 
 ## Status
   * Submitted: Ja
-  * Angenommen: Nein
+  * Angenommen: Ja
