@@ -22,4 +22,4 @@ wollen. Vorkenntnisse im GeoServer sind nicht notwendig.
 
 ## Status
   * Submitted: Ja
-  * Angenommen: Nein
+  * Angenommen: Ja
