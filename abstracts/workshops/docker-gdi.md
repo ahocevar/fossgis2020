@@ -43,4 +43,4 @@ Informationen
 
 ## Status
   * Submitted: Ja
-  * Angenommen: Nein
+  * Angenommen: Ja
