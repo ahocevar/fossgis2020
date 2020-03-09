@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "dependencies": {
-    "ol": "^6.0.0-beta.3"
+    "ol": "^6.2.2-dev.1583765652344"
   },
   "devDependencies": {
-    "parcel-bundler": "^1.12.0"
+    "parcel-bundler": "^1.12.4"
   },
   "scripts": {
     "start": "parcel serve --no-source-maps --no-cache src/extent-constrained.html",

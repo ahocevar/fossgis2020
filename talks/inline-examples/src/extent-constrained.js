@@ -3,10 +3,11 @@ import { Map } from 'ol';
 import { Tile } from 'ol/layer';
 import { OSM } from 'ol/source';
 import { View } from 'ol';
-import { fromLonLat } from 'ol/proj';
-import { transformExtent } from 'ol/proj';
+import { useGeographic } from 'ol/proj';
 
-new Map({
+useGeographic();
+
+const map = new Map({
   target: 'map',
   layers: [
     new Tile({
@@ -14,8 +15,16 @@ new Map({
     })
   ],
   view: new View({
-    center: fromLonLat([13.73836, 51.049259]),
-    extent: transformExtent([13.53836, 50.949259, 13.93836, 51.149259], 'EPSG:4326', 'EPSG:3857'),
-    zoom: 12
+    center: [0, 0],
+    zoom: 2
   })
-})
+});
+
+document.getElementById('freiburg').addEventListener('click', () => {
+  const extent = [7.849881 - 0.1, 47.994828 - 0.05, 7.849881 + 0.1, 47.994828 + 0.05];
+  const view = map.getView();
+  map.setView(new View({
+    extent: extent
+  }));
+  map.getView().fit(extent);
+});

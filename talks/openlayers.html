@@ -256,22 +256,39 @@
         </section>
 
         <section>
-            <h1>Highlights v5.x</h1>
+            <h1>Highlights v6.x</h1>
         </section>
 
         <section>
-          <img class="stretch plain" src="../shared/img/npm-ol.png" alt="">
+          <h2>View-Steuerung</h2>
+          <ul>
+            <li>Extent auf genauen Ausschnitt einschränkbar</li>
+            <li>Standardmäßig nur mehr 1 Welt sichtbar</li>
+            <li>Stufenloses Zoom</li>
+          </ul>
         </section>
 
         <section>
-          <h2>Take home:</h2>
+          <h2>View-Steuerung</h2>
 
-          <div class="fragment">
-            <pre><code data-trim class="bash">$ npm install ol</code></pre>
-            <pre><code data-trim class="bash">$ yarn add ol</code></pre>
+          <iframe src="./inline-examples/extent-constrained.html" class="plain stretch"></iframe>
+      </section>
+
+        <section>
+          <h2>Intuitive Koordinaten</h2>
+
+          <div>
+            <pre><code data-trim class="js">import {useGeographic} from 'ol/proj';
+
+useGeographic();
+
+geometry.setCoordinates([7.849881, 47.994828]);
+view.fit(geometry);
+
+console.log(view.getCenter());
+// -> [7.849881, 47.994828]</code></pre>
           </div>
-          <p class="fragment">Vor zwei Jahren: Beta &amp; Obacht! <br><br> <strong class=" fragment highlight">Vor einem Jahr: Bitte nur so</strong></p>
-          <p class="fragment">Heute: Nutzt den full build bitte nicht mehr</p>
+          <p class="fragment">oder <code>setUserProjection()</code> für beliebige Projektion!</p>
         </section>
 
         <section>
