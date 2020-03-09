@@ -35,7 +35,6 @@
           '../shared/reveal.js-3.6.0/css/print/paper.css';
       document.getElementsByTagName( 'head' )[0].appendChild( link );
     </script>
-    <script src="example-galore.js"></script>
   </head>
   <body>
 
@@ -93,10 +92,10 @@
             <div class="part" style="width:60%">
               <div class="enumeration">
                 <ul>
-                  <li>Gesch&auml;ftsf&uuml;hrer @terrestris</li>
-                  <li>Kernentwickler OpenLayers</li>
-                  <li>Kernentwickler GeoExt</li>
-                  <li>Buchautor "OpenLayers"</li>
+                  <li>Gesch&auml;ftsf&uuml;hrer @terrestris &amp; @mundialis</li>
+                  <li>Kernentwickler &amp; PSC OpenLayers</li>
+                  <li>GeoExt, SHOGun, GeoStyler</li>
+                  <!-- <li>Buchautor "OpenLayers"</li> -->
                   <li>Sprecher &amp; Trainer <br /> national &amp; international</li>
                   <li>OSGeo Foundation Charter Member</li>
                 </ul>
@@ -205,6 +204,21 @@
           </ul>
         </section>
 
+        <section data-background="../shared/img/ol-talk/Old-world-map.png">
+          <!-- Bild ist PD -->
+          <h3>FOSSGIS 2008, Freiburg</h3>
+          <ul>
+            <li style="margin-bottom: 1em;">
+              T. Adams und M. Jansen, terrestris: <br />
+              "OpenLayers &mdash; oder: das 'Kartendingsbums' für jede Webseite", <a href="https://www.fossgis.de/wiki/Konferenz_2008/Abstracts#OpenLayers_-_oder:_das_.27Kartendingsbums.27_f.C3.BCr_jede_Webseite">↗</a><br />
+            </li>
+            
+            <li>
+              Emanuel Schütze, Intevation:<br />"OpenLayers &mdash; Neue Features im Überblick", <a href="https://www.fossgis.de/wiki/Konferenz_2008/Abstracts#OpenLayers_-_Neue_Features_im_.C3.9Cberblick">↗</a><br />
+            </li>
+          </ul>
+        </section>
+
         <section>
           <h2>OpenLayers</h2>
           <ul>
@@ -212,17 +226,15 @@
             <li>Interaktionen &amp; Steuerelemente</li>
             <li>Aktiv entwickelt &amp; große Community</li>
             <li>Gut dokumentiert &amp; viele Beispiele</li>
-            <li>Universal einsetzbar</li>
+            <li>Universell einsetzbar</li>
           </ul>
         </section>
 
-        <section id="example-galore">
-          <img class="stretch plain animated rotateInUpLeft entering" src="../shared/img/ol-talk/https_openlayers.org_en_latest_examples_accessible.html.png" alt="">
+        <section id="example-galore" data-background-video="../shared/img/ol-talk/examples.mp4" data-background-size="contain">
         </section>
 
         <section>
           <h2>OpenLayers Versionshistorie</h2>
-
             <ul>
               <li>v1.0.0, Mai 2006</li>
               <li>v2.0.0, August 2006</li>
@@ -548,16 +560,16 @@ import {OSM, VectorTile} from 'ol/source';
         ],
         history: true
       });
-      Reveal.addEventListener('slidechanged', (evt) => {
-          const prev = evt.previousSlide || {};
-          const curr = evt.currentSlide || {};
-          if (prev.id === 'example-galore') {
-            stopExampleGalore();
-          }
-          if (curr.id === 'example-galore') {
-            startExampleGalore();
-          }
-      });
+      // Reveal.addEventListener('slidechanged', (evt) => {
+      //     const prev = evt.previousSlide || {};
+      //     const curr = evt.currentSlide || {};
+      //     if (prev.id === 'example-galore') {
+      //       stopExampleGalore();
+      //     }
+      //     if (curr.id === 'example-galore') {
+      //       startExampleGalore();
+      //     }
+      // });
     </script>
   </body>
 </html>
