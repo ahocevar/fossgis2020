@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>Constrained Extent</title>
+  <title>Mixed renderers</title>
 </head>
 <style>
     html, body, .map {
@@ -11,16 +11,19 @@
       width: 100%;
       height: 100%;
     }
-    #view-toggle {
-      position: absolute;
-      bottom: 10px;
-      left: 10px;
+    .map {
+      background-color: black;
+    }
+    .svg-layer path:hover {
+      opacity: 0.8;
+    }
+    .svg-layer path {
+      opacity: 0.4;
     }
   </style>
 </head>
 <body>
   <div id="map" class="map"></div>
-  <button id="view-toggle">Anderer Ausschnitt</button>
-  <script src="extent-constrained.js"></script>
+  <script src="mixed-renderers.js"></script>
 </body>
 </html>
