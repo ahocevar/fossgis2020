@@ -288,31 +288,22 @@ console.log(view.getCenter());
         <section>
           <h2>DOM Composition</h2>
           <ul>
-            <li>Neues API für eigene Renderer</li>
-            <li>Zusätzliche Modifikationsmöglichkeiten über CSS</li>
+            <li><code>renderer</code> Neues API für eigene Renderer</li>
+            <li><code>className</code> Modifikationsmöglichkeit über CSS</li>
+            <li>Upgrade: Änderungen bei Image/PDF Export nötig</li>
           </ul>
         </section>
 
         <section>
-          <h2>Mousewheel condition</h2>
-
-          <pre><code data-trim>import {shiftKeyOnly} from 'ol/events/condition';
-
-const myZoom = new MouseWheelZoom({
-  condition: shiftKeyOnly
-});</code></pre>
-
-          <iframe src="./ol-inline-examples/zoom-condition.html" class="plain stretch"></iframe>
-          <a class="pr-detail" href="https://github.com/openlayers/openlayers/pull/7682">PR #7682</a>
-        </section>
-
-        <section>
-          <h2 style="text-decoration: line-through;">(I)CLA</h2>
+          <h2>Sonstige Verbesserungen</h2>
           <ul>
-            <li>Seit <a href="https://github.com/openlayers/openlayers/pull/7711">PR #7711</a></li>
-            <li>Ben Balter <a href="https://ben.balter.com/2018/01/02/why-you-probably-shouldnt-add-a-cla-to-your-open-source-project/">Why CLA?!?</a></li>
-            <li>GitHub Terms of Service: <a href="https://help.github.com/articles/github-terms-of-service/#6-contributions-under-repository-license">Contributions under repository license</a></li>
-            <li>Geringere Hürde für potentielle Committer</li>
+            <li>Kacheln laden auch während Interaktion/Animation</li>
+            <li>Upgrade: Intuitivere interne Tile-Koordinaten</li>
+            <li>Kein eigener Pointer Events Polyfill mehr</li>
+            <li>Neues <code>Layer#getFeaturesAtPixel</code> API</li>
+            <li>Leichtere Icon-Positionierung mit <code>displacement</code></li>
+            <li>Leichtere Einbettung in scrollbare Seiten</li>
+            <li>Deutlich verbesserte KML Unterstützung</li>
           </ul>
         </section>
 
