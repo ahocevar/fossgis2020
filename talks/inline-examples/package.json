@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "dependencies": {
-    "ol": "^6.2.2-dev.1583765652344"
+    "ol": "^6.2.2-dev.1583881025549"
   },
   "devDependencies": {
     "parcel-bundler": "^1.12.4"
