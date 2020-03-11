@@ -84,7 +84,7 @@
               <img src="../shared/img/mj.jpg" class="plain" width="200"/><br />
               <small>
                 <a class="email" href="mailto:jansen@terrestris.de">jansen@terrestris.de</a><br />
-                <a class="github" href="https://github.com/marcjansen/">@terrestris / @marcjansen</a><br />
+                <a class="github" href="https://github.com/marcjansen/">@marcjansen</a><br />
                 <a class="twitter" href="https://twitter.com/selectoid/">@selectoid</a><br />
               </small><br />
               <img src="../shared/img/openlayers_de_1ed.png" class="plain" width=100 />
@@ -197,20 +197,21 @@
           </ul>
         </section>
 
-        <section>
-          <h2>OpenLayers</h2>
-          <ul>
-            <li>Viele Daten- &amp; Layerquellen</li>
-            <li>Interaktionen &amp; Steuerelemente</li>
-            <li>Aktiv entwickelt &amp; große Community</li>
-            <li>Gut dokumentiert &amp; viele Beispiele</li>
-            <li>Universell einsetzbar</li>
-          </ul>
+        <section data-background-video="../shared/img/ol-talk/examples.mp4" data-background-size="contain">
+          <div style="background-color: #ffffff77; color: black; border-radius: 1em; margin-top:6em; text-shadow: 1px 1px #ffffff;">
+            <ul>
+              <li>Viele Daten- &amp; Layerquellen</li>
+              <li>Interaktionen &amp; Steuerelemente</li>
+              <li>Aktiv entwickelt &amp; große Community</li>
+              <li>Gut dokumentiert &amp; viele Beispiele</li>
+              <li>Universell einsetzbar</li>
+            </ul>
+          </div>
         </section>
-
+<!--
         <section id="example-galore" data-background-video="../shared/img/ol-talk/examples.mp4" data-background-size="contain">
         </section>
-
+-->
         <section>
           <h2>OpenLayers Versionshistorie</h2>
             <ul>
@@ -268,12 +269,12 @@
           <h3>Upgrade von v5.x</h3>
           <ul>
             <li>…halb so wild!</li>
-            <li>z.B. <ul>
-              <li><span style="text-decoration: line-through;">inherits</span> => ES 2015 class</li>
+            <li>z.B. <ul class="fragment">
+              <li><span style="text-decoration: line-through;">inherits</span> => ES 2015 <code>class</code></li>
               <li>interne Kachel-Koordinaten, sollte die wenigsten betreffen</li>
-              <li>setCenter, setZoom … verändert <span style="text-decoration: line-through;">🐛 Bugs</span></li>
+              <li><code>setCenter</code>, <code>setZoom</code> … verändert <span style="text-decoration: line-through;">🐛 Bugs</span></li>
             </ul></li>
-            <li>Details, siehe <a href="https://github.com/openlayers/openlayers/releases/tag/v6.0.0">Release Notes</a></li>
+            <li class="fragment">Details, siehe <a href="https://github.com/openlayers/openlayers/releases/tag/v6.0.0">Release Notes</a></li>
           </ul>
         </section>
 
@@ -326,7 +327,6 @@ console.log(view.getCenter());
           <h2>Sonstiges im Code</h2>
           <ul>
             <li>Kacheln laden auch während Interaktion/Animation</li>
-            <li>Upgrade: Intuitivere interne Tile-Koordinaten</li>
             <li>Kein eigener Pointer Events Polyfill mehr</li>
             <li>Neues <code>Layer#getFeaturesAtPixel</code> API</li>
             <li>Leichtere Icon-Positionierung mit <code>displacement</code></li>
@@ -342,6 +342,9 @@ console.log(view.getCenter());
             <li>Bessere und schnellere Suche in API Docs</li>
             <li>Tag-Navigation durch Beispiele</li>
           </ul>
+        </section>
+
+        <section data-background-image="../shared/img/ol-talk/apis.png" data-background-size="contain">
         </section>
 
         <section>
